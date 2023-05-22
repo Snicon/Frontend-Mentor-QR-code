@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.card {
+    width: 100vw;
+    margin: 30px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+div.card img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (min-width:500px) {
+    .card {
+        width: 40vw;
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card {
+        width: 20vw;
+        margin: 30px;
+    }
+}
